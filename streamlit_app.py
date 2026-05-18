@@ -2,7 +2,9 @@ import streamlit as st
 
 st.title("PENENTUAN KELULUSAM")
 nilai=st.number_input("Masukkan nilai:")
+st.button("Hasil"):
 if nilai >=55:
-    print("STATUS : LULUS")
+    print("LULUS")
 else:
-    print("STATUS : TIDAK LULUS")
+    print("TIDAK LULUS")
+    
