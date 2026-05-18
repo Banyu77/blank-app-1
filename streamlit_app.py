@@ -5,7 +5,7 @@ nilai=st.number_input("Masukkan nilai:")
 st.button("Hasil")
 
 if nilai >=55:
-    "LULUS"
+    "SELAMAT ANDA DINYATAKAN LULUS"
 else:
-    "TIDAK LULUS"
+    "MOHON MAAF ANDA TIDAK LULUS"
     
